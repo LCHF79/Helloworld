@@ -7,4 +7,8 @@ class ApplicationController < ActionController::Base
     render text: "Hello, world"
   end
 
+  def test
+    render text: "Fuck you!"
+  end
+
 end
